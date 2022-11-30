@@ -1,0 +1,25 @@
+.navbar-bg{
+    background-color: #fff;
+
+    #navbarsExample07{
+        justify-content: flex-end;
+
+        ul{
+            margin-right:unset !important;
+            li{
+
+                a{
+                    color:#414141;
+                }
+            }
+            li.active{
+                background: #F14878;
+                border-radius: 7px;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+//midwife navbar style

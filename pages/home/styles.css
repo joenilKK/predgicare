@@ -1,0 +1,68 @@
+.home .sidebar-con {
+  background-color: #FFD6EA;
+  height: 100%;
+  border-radius: 7px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.home .graph-wrapper {
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.home .poplution-wrapper {
+  background: #fff;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.home .poplution-wrapper .upper {
+  position: relative;
+}
+.home .poplution-wrapper .upper .img-wrapper {
+  position: absolute;
+  right: 0;
+}
+.home .poplution-wrapper .lower {
+  border-top: solid 1px #FFD6EA;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.home .poplution-wrapper .lower .pill-increase {
+  background: #D9D9D9;
+  padding: 4px 10px;
+  border-radius: 26px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.home .poplution-wrapper .lower small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #414141;
+}
+.home .activity-log-wrapper {
+  background: #fff;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.home .activity-log-wrapper #activity-log_wrapper {
+  box-shadow: unset;
+  padding: 0;
+}
+.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter {
+  margin-right: 0;
+}
+.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter input {
+  margin-left: 0;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,32 @@
+.login{
+    .row.g-0{
+        align-items: stretch;
+        
+        .login-form-wrapper{
+            background-color: #FFE9F2;
+            padding:43px;
+    
+            .login-image{
+                img{
+                    max-width: 210px;
+                }
+            }
+            .login-form{
+                h3{
+                    margin: 28px 0;
+                    color:#5F5F5F !important;
+                    font-size: 30px;
+                    line-height: 34px;
+                }
+                label{
+                    color:#235D67;
+                }
+                .btn{
+                    margin-top: 50px;
+                    background-color: #F14878 !important;
+                    border-color: #F14878 !important;
+                }
+            }
+        }
+    }
+}

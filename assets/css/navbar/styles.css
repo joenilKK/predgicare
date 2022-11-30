@@ -1,0 +1,19 @@
+.navbar-bg {
+  background-color: #fff;
+}
+.navbar-bg #navbarsExample07 {
+  justify-content: flex-end;
+}
+.navbar-bg #navbarsExample07 ul {
+  margin-right: unset !important;
+}
+.navbar-bg #navbarsExample07 ul li a {
+  color: #414141;
+}
+.navbar-bg #navbarsExample07 ul li.active {
+  background: #F14878;
+  border-radius: 7px;
+}
+.navbar-bg #navbarsExample07 ul li.active a {
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */

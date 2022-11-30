@@ -1,0 +1,85 @@
+@import 'colors.scss';
+body{
+    background-color: $light-pink;
+}
+//footer area
+.footer-con{
+    background-color: #FFD6EA;
+}
+//end footer area
+
+
+
+//datables
+
+.dataTables_wrapper{
+    background: $white;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: 0px -2px 13px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+    
+    
+    table{
+        border-radius: 7px;
+        overflow:hidden;
+
+        th{
+            background-color: $dark-pink;
+            color:$white;
+            font-weight: 600;
+        }
+        tbody tr.odd{
+            background-color: $light-pink;
+        }
+    }
+    
+    
+    ul{
+        margin-bottom: 0;
+        .page-item.active .page-link{
+            background-color: $dark-pink;
+            border-color: $dark-pink;
+        }
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .dataTables_filter{
+            flex:1;
+            margin-right: 10px;
+            label{
+                display: flex;
+                width: 100%;
+                align-items: stretch;
+                flex-direction: column;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        label {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+}
+
+//end datatables
+
+//pink background layout
+
+.has-pink{
+    position: relative;
+
+    .dark-pink{
+        background-color:$dark-pink;
+        height: 400px;
+        position: absolute;
+        z-index: -1;
+    }
+}

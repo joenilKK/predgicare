@@ -1,0 +1,68 @@
+body {
+  background-color: #FFD6EA;
+}
+
+.footer-con {
+  background-color: #FFD6EA;
+}
+
+.dataTables_wrapper {
+  background: #fff;
+  border-radius: 7px;
+  padding: 14px;
+  box-shadow: 0px -2px 13px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.dataTables_wrapper table {
+  border-radius: 7px;
+  overflow: hidden;
+}
+.dataTables_wrapper table th {
+  background-color: #F14878;
+  color: #fff;
+  font-weight: 600;
+}
+.dataTables_wrapper table tbody tr.odd {
+  background-color: #FFD6EA;
+}
+.dataTables_wrapper ul {
+  margin-bottom: 0;
+}
+.dataTables_wrapper ul .page-item.active .page-link {
+  background-color: #F14878;
+  border-color: #F14878;
+}
+.dataTables_wrapper .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dataTables_wrapper .top .dataTables_filter {
+  flex: 1;
+  margin-right: 10px;
+}
+.dataTables_wrapper .top .dataTables_filter label {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  flex-direction: column;
+}
+.dataTables_wrapper .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dataTables_wrapper .bottom label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.has-pink {
+  position: relative;
+}
+.has-pink .dark-pink {
+  background-color: #F14878;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+}/*# sourceMappingURL=styles.css.map */

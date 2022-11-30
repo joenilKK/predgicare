@@ -1,0 +1,24 @@
+@import '../../assets/css/global/colors.scss';
+#register-patients{
+    position: relative;
+    h3{
+        color:$white;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .dark-pink{
+        background-color:$dark-pink;
+        height: 400px;
+        position: absolute;
+        z-index: -1;
+    }
+    .form-col{
+        .row{
+            background: $white;
+            box-shadow: -20px -2px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+    }
+    
+}

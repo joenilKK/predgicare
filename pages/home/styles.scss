@@ -1,0 +1,74 @@
+@import '../../assets/css/global/colors.scss';
+@import '../../assets/css/global/utils';
+.home{
+    .sidebar-con{
+        background-color: $light-pink;
+        height: 100%;
+        border-radius: 7px;
+        padding-bottom: 10px;
+        box-shadow:$shadow;
+    }
+    .graph-wrapper{
+        padding: 20px;
+        border-radius: 7px;
+        background-color: $white;
+        box-shadow:$shadow;
+    }
+    .poplution-wrapper{
+        background: $white;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: $shadow;
+        .upper{
+            position: relative;
+            .img-wrapper{
+                position: absolute;
+                right: 0;
+            }
+        }
+        .lower{
+            border-top: solid 1px $light-pink;
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .pill-increase {
+                background: #D9D9D9;
+                padding: 4px 10px;
+                border-radius: 26px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+            small{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #414141;
+            }
+        }
+    }
+    .activity-log-wrapper{
+        background: $white;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: $shadow;
+
+        #activity-log_wrapper{
+            box-shadow: unset;
+            padding: 0;
+            .dataTables_filter {
+                margin-right:0;
+                input{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
