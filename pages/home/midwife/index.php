@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-8">
                         <div class="graph-wrapper">
-                            <h2>PREGNANT WOMEN POPULATION</h2>
+                            <h2>PREGNANT WOMEN POPULATIONS</h2>
                             <canvas class="reporting"></canvas>
                         </div>
                     </div>
