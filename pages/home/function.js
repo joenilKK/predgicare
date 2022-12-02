@@ -31,7 +31,7 @@ $(document).ready(function(){
         }
     });
 
-    //datatable init
+    //datatable midwife init
     $('#activity-log').DataTable({
         dom: '<"top"f>t<"bottom"p><"clear">',
         language: { 
@@ -47,4 +47,40 @@ $(document).ready(function(){
             type: "POST",
         },
     })
+
+    //datatable admin latest report
+    $('#latest-report').DataTable({
+        dom: '<"top"f>t<"bottom"p><"clear">',
+        language: { 
+            search: '', 
+            searchPlaceholder: "Search..." ,
+            processing: 'Loading...'
+        },
+        processing: true,
+        serverSide: true,
+        order: [],
+        ajax: {
+            url: "pages/home/admin/server_processing.php",
+            type: "POST",
+        },
+    })
+
+    //datatable admin recent user
+    $('#recent-user').DataTable({
+        dom: '<"top"f>t<"bottom"p><"clear">',
+        language: { 
+            search: '', 
+            searchPlaceholder: "Search..." ,
+            processing: 'Loading...'
+        },
+        processing: true,
+        serverSide: true,
+        order: [],
+        ajax: {
+            url: "pages/home/admin/server_processing.php",
+            type: "POST",
+            
+        },
+    })
+    
 })

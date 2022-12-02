@@ -13,8 +13,8 @@
         $classDEf = ' '.trim($uri, "/");
     }
 
-    $currentUser = "midwife";
-    if($currentUser == 'midwife' && $uri != '/login'){
+    $currentUser = "admin";
+    if($currentUser == 'admin' && $uri != '/login'){
         $navbar = $currentUser;
     }else{
         $navbar = 'default';
