@@ -1,3 +1,3 @@
-<?php require('pages/home/midwife/index.php')?>
+<?php require('pages/home/admin/index.php')?>
 
   

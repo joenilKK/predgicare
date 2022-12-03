@@ -60,7 +60,7 @@
         padding: 20px;
         box-shadow: $shadow;
 
-        #activity-log_wrapper{
+        #activity-log_wrapper,#latest-report_wrapper{
             box-shadow: unset;
             padding: 0;
             .dataTables_filter {
@@ -70,5 +70,7 @@
                 }
             }
         }
+
     }
+    
 }

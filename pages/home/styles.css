@@ -56,13 +56,13 @@
   padding: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
-.home .activity-log-wrapper #activity-log_wrapper {
+.home .activity-log-wrapper #activity-log_wrapper, .home .activity-log-wrapper #latest-report_wrapper {
   box-shadow: unset;
   padding: 0;
 }
-.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter {
+.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter, .home .activity-log-wrapper #latest-report_wrapper .dataTables_filter {
   margin-right: 0;
 }
-.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter input {
+.home .activity-log-wrapper #activity-log_wrapper .dataTables_filter input, .home .activity-log-wrapper #latest-report_wrapper .dataTables_filter input {
   margin-left: 0;
 }/*# sourceMappingURL=styles.css.map */
